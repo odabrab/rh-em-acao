@@ -17,9 +17,9 @@ A presente documentação se refere a um projeto que nasce em 2024 na universida
 
 &nbsp;&nbsp;&nbsp;&nbsp;**3.2.1) O FICHEIRO /COMPONENTS/STYLES.JS**
 
-&nbsp;&nbsp;**3.3) O DIRET&Oacute;RIO /.DATA/**
+&nbsp;&nbsp;**3.3) O DIRET&Oacute;RIO /.PERSISTENCE/**
 
-&nbsp;&nbsp;**3.4) O DIRET&Oacute;RIO /.LOG/**
+&nbsp;&nbsp;&nbsp;&nbsp;**3.3.1) O FICHEIRO /.PERSISTENCE/LOG.CSV**
 
 **REFERÊNCIAS**
 
@@ -97,12 +97,12 @@ Abriga os ficheiros locais de biblioteca, chamados de componentes.
 
 Os estilos ficam concentrados no ficheiro /components/Styles.js.
 
-### 3.3) O DIRET&Oacute;RIO /.DATA/
+### 3.3) O DIRET&Oacute;RIO /.PERSISTENCE/
 
-Abriga dados, e.g., conta, vagas, etc.
+Abriga dados, e.g., conta, vagas, registros, e etc.
 
-### 3.4) O DIRET&Oacute;RIO /.LOG/
+### 3.3.1) O FICHEIRO /.PERSISTENCE/LOG.CSV
 
-Abriga registros.
+Persiste registros.
 
 ## REFERÊNCIAS
