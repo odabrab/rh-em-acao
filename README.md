@@ -1,5 +1,5 @@
 # README para o c&oacute;digo de rh-em-acao (Projeto RH em A&ccedil;&atilde;o)
-A job-offer mobile app (aplicação para ofertar vagas de trabalho).
+Aplica&ccedil;&atilde;o movel para ofertar vagas de trabalho (a job-offer mobile app).
 
 A presente documentação se refere a um projeto que nasce em 2024 na universidade Estácio. Trata-se de uma aplicação móvel para ofertas de vagas de trabalho, cuja engenharia de software é conduzida através do Laboratório de Transformação Digital (LTD) da instituição, e também através de uma disciplina de extensão, que entrega o protagonismo do projeto aos alunos da Estácio. A disciplina em questão é denominada "ARA0089 Programação para dispositivos móveis em Android", e por deter caráter extensionista, objetiva entregar aplicações que atendam aos alunos e também à comunidade.
 
