@@ -6,22 +6,15 @@ A presente documentação se refere a um projeto que nasce em 2024 na universida
 ## SUMÁRIO
 
 **1) INTRODUÇÃO**
-
 **2) REACT NATIVE**
-
-**3) CÓDIGO-FONTE DO PROJETO RH EM AÇÃO**
-
-&nbsp;&nbsp;**3.1) O DIRET&Oacute;RIO /ASSETS/**
-
-&nbsp;&nbsp;**3.2) O DIRET&Oacute;RIO /COMPONENTS/**
-
-&nbsp;&nbsp;&nbsp;&nbsp;**3.2.1) O FICHEIRO /COMPONENTS/STYLES.JS**
-
-&nbsp;&nbsp;**3.3) O DIRET&Oacute;RIO /.PERSISTENCE/**
-
-&nbsp;&nbsp;&nbsp;&nbsp;**3.3.1) O FICHEIRO /.PERSISTENCE/LOG.CSV**
-
-**REFERÊNCIAS**
+**3) PERSIST&Ecirc;NCIA**
+**4) CÓDIGO-FONTE DO PROJETO RH EM AÇÃO**
+&nbsp;&nbsp;**4.1) O DIRET&Oacute;RIO /ASSETS/**
+&nbsp;&nbsp;**4.2) O DIRET&Oacute;RIO /COMPONENTS/**
+&nbsp;&nbsp;&nbsp;&nbsp;**4.2.1) O FICHEIRO /COMPONENTS/STYLES.JS**
+&nbsp;&nbsp;**4.3) O DIRET&Oacute;RIO /.PERSISTENCE/**
+&nbsp;&nbsp;&nbsp;&nbsp;**4.3.1) O FICHEIRO /.PERSISTENCE/LOG.CSV**
+**REFER&Ecirc;NCIAS**
 
 ## 1) INTRODUÇÃO
 
@@ -83,26 +76,31 @@ Caso você já tenha um editor de texto ou IDE de sua preferência, faça o **do
 
 Adicionalmente, o Expo oferece um [fórum](https://forums.expo.dev/c/expo-dev-tools/61) para dúvidas gerais e específicas. 
 
-## 3) CÓDIGO-FONTE DO PROJETO RH EM AÇÃO
+## 3) PERSIST&Ecirc;NCIA
 
-### 3.1) O DIRET&Oacute;RIO /ASSETS/
+Dados são salvos localmente e remotamente.
+
+## 4) CÓDIGO-FONTE DO PROJETO RH EM AÇÃO
+
+### 4.1) O DIRET&Oacute;RIO /ASSETS/
 
 Abriga conteúdo visual e audiovisual.
 
-### 3.2) O DIRET&Oacute;RIO /COMPONENTS/
+### 4.2) O DIRET&Oacute;RIO /COMPONENTS/
 
 Abriga os ficheiros locais de biblioteca, chamados de componentes.
 
-### 3.2.1) O FICHEIRO /COMPONENTS/STYLES.JS
+### 4.2.1) O FICHEIRO /COMPONENTS/STYLES.JS
 
 Os estilos ficam concentrados no ficheiro /components/Styles.js.
 
-### 3.3) O DIRET&Oacute;RIO /.PERSISTENCE/
+### 4.3) O DIRET&Oacute;RIO /.PERSISTENCE/
 
 Abriga dados, e.g., conta, vagas, registros, e etc.
 
-### 3.3.1) O FICHEIRO /.PERSISTENCE/LOG.CSV
+### 4.3.1) O FICHEIRO /.PERSISTENCE/LOG.CSV
 
 Persiste registros.
 
-## REFERÊNCIAS
+## REFER&Ecirc;NCIAS 
+
