@@ -79,15 +79,17 @@ A presente seção trata das dependências listadas pelo ficheiro package.json.
 
 Note que todos os projetos criados no Snack são acessíveis publicamente através do URL do projeto, e.g., [Projeto RH em Ação] (https://snack.expo.dev/@marcio.barbado/projeto_rh_em_acao). Isso é bem útil para mostrar o código a alguém. O próprio Snack em tem código aberto, disponível em seu [repositório do GitHub](https://github.com/expo/snack).
 
-Caso queira testar ou mostrar o aplicativo em funcionamento num dispositivo móvel de verdade, use o **QR code** disponível em "My Device", que fica sobre a telinha do dispositivo virtual.
+Caso queira testar ou mostrar o aplicativo em funcionamento num dispositivo móvel de verdade, use o *QR code* disponível em "*My Device*", que fica sobre a telinha do dispositivo virtual.
 
-Caso você já tenha um editor de texto ou IDE de sua preferência, faça o **download** do seu projeto, e use o [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Caso você já tenha um editor de texto ou IDE de sua preferência, faça o *download* do seu projeto, e use o [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
 
 Adicionalmente, o Expo oferece um [fórum](https://forums.expo.dev/c/expo-dev-tools/61) para dúvidas gerais e específicas. 
 
 ## 3) PERSIST&Ecirc;NCIA
 
-Dados são salvos localmente e remotamente. Eles são organizados em três tabelas: uma para as contas, uma para as vagas, e uma para os registros ou logs.
+Dados da aplicação são salvos localmente e remotamente. Eles são organizados em três tipos de tabelas: um tipo para tabelas de contas, um tipo para tabelas de vagas, e um tipo para tabelas de registros ou *logs*.
+
+Tabelas de registros ou *logs* servem para auxíliar a pr&oacute;pria atividade do desenvolvimento da aplica&ccedil;&atilde;o.
 
 ## 4) CÓDIGO-FONTE DO PROJETO RH EM AÇÃO
 
