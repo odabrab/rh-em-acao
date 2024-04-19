@@ -6,14 +6,23 @@ A presente documentação se refere a um projeto que nasce em 2024 na universida
 ## SUMÁRIO
 
 **1) INTRODUÇÃO**
+
 **2) REACT NATIVE**
+
 **3) PERSIST&Ecirc;NCIA**
+
 **4) CÓDIGO-FONTE DO PROJETO RH EM AÇÃO**
+
 &nbsp;&nbsp;**4.1) O DIRET&Oacute;RIO /ASSETS/**
+
 &nbsp;&nbsp;**4.2) O DIRET&Oacute;RIO /COMPONENTS/**
+
 &nbsp;&nbsp;&nbsp;&nbsp;**4.2.1) O FICHEIRO /COMPONENTS/STYLES.JS**
+
 &nbsp;&nbsp;**4.3) O DIRET&Oacute;RIO /.PERSISTENCE/**
+
 &nbsp;&nbsp;&nbsp;&nbsp;**4.3.1) O FICHEIRO /.PERSISTENCE/LOG.CSV**
+
 **REFER&Ecirc;NCIAS**
 
 ## 1) INTRODUÇÃO
@@ -78,7 +87,7 @@ Adicionalmente, o Expo oferece um [fórum](https://forums.expo.dev/c/expo-dev-to
 
 ## 3) PERSIST&Ecirc;NCIA
 
-Dados são salvos localmente e remotamente.
+Dados são salvos localmente e remotamente. Eles são organizados em três tabelas: uma para as contas, uma para as vagas, e uma para os registros ou logs.
 
 ## 4) CÓDIGO-FONTE DO PROJETO RH EM AÇÃO
 
