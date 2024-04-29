@@ -9,7 +9,11 @@ A presente documentação se refere a um projeto que nasce em 2024 na universida
 
 **2) REACT NATIVE**
 
-**3) PERSIST&Ecirc;NCIA**
+**3) CACHING E PERSIST&Ecirc;NCIA**
+
+&nbsp;&nbsp;**3.1) LOCALMENTE**
+
+&nbsp;&nbsp;**3.2) REMOTAMENTE**
 
 **4) CÓDIGO-FONTE DO PROJETO RH EM AÇÃO**
 
@@ -85,11 +89,19 @@ Caso você já tenha um editor de texto ou IDE de sua preferência, faça o *dow
 
 Adicionalmente, o Expo oferece um [fórum](https://forums.expo.dev/c/expo-dev-tools/61) para dúvidas gerais e específicas. 
 
-## 3) PERSIST&Ecirc;NCIA
+## 3) CACHING E PERSIST&Ecirc;NCIA
 
 Dados da aplicação são salvos localmente e remotamente. Eles são organizados em três tipos de tabelas: um tipo para tabelas de contas, um tipo para tabelas de vagas, e um tipo para tabelas de registros ou *logs*.
 
 Tabelas de registros ou *logs* servem para auxíliar a pr&oacute;pria atividade do desenvolvimento da aplica&ccedil;&atilde;o.
+
+### 3.1) LOCALMENTE
+
+O armazenamento local de dados depende da plataforma.
+
+Caso a plataforma seja Android ou iOS, o armazenamento local pode utilizar os componentes AsyncStorage e Cache, que amenizam problemas do usuário nas situações em que as consultas a bancos de dados remotos forem impossíveis. Isso significa que o Cache melhora a experiência do usuário. O referido componente copia para o sistema operacional local alguns dados que normalmente exigiriam consultas a serviços remotos.
+
+### 3.2) REMOTAMENTE
 
 ## 4) CÓDIGO-FONTE DO PROJETO RH EM AÇÃO
 
