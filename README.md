@@ -1,8 +1,22 @@
+<!--
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+--------
+--------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+-->
 # README para o c&oacute;digo de rh-em-acao (Projeto RH em A&ccedil;&atilde;o)
 Aplica&ccedil;&atilde;o movel para ofertar vagas de trabalho (a job-offer mobile app).
 
 A presente documentação se refere a um projeto que nasce em 2024 na universidade Estácio. Trata-se de uma aplicação móvel para ofertas de vagas de trabalho, cuja engenharia de software é conduzida através do Laboratório de Transformação Digital (LTD) da instituição, e também através de uma disciplina de extensão, que entrega o protagonismo do projeto aos alunos da Estácio. A disciplina em questão é denominada "ARA0089 Programação para dispositivos móveis em Android", e por deter caráter extensionista, objetiva entregar aplicações que atendam aos alunos e também à comunidade.
 
+<!--
+----------------------------------------------------------------------
+--------
+--------
+----------------------------------------------------------------------
+-->
 ## SUMÁRIO
 
 **1) INTRODUÇÃO**
@@ -31,6 +45,12 @@ A presente documentação se refere a um projeto que nasce em 2024 na universida
 
 **REFER&Ecirc;NCIAS**
 
+<!--
+----------------------------------------------------------------------
+--------
+--------
+----------------------------------------------------------------------
+-->
 ## 1) INTRODUÇÃO
 
 Vislumbres do primeiro quarto do século XXI revelam claras tendências tecnológicas.
@@ -57,6 +77,12 @@ A engenharia de software do projeto lança mão do notório arcabouço Scrum, qu
 
 A aplicação está dispon&iacute;vel para Android e iOS.
 
+<!--
+----------------------------------------------------------------------
+--------
+--------
+----------------------------------------------------------------------
+-->
 ## 2) REACT NATIVE
 
 Arcabouço mantido pela organização chamada Meta, que permite a criação de aplicativos para Android e iOS a partir de uma base única, escrita predominantemente em JavaScript e JSX.
@@ -91,6 +117,12 @@ Caso você já tenha um editor de texto ou IDE de sua preferência, fa&ccedil;a 
 
 Adicionalmente, o Expo oferece um [fórum](https://forums.expo.dev/c/expo-dev-tools/61) para dúvidas gerais e específicas. 
 
+<!--
+----------------------------------------------------------------------
+--------
+--------
+----------------------------------------------------------------------
+-->
 ## 3) REQUISITOS E PRINCIPAIS COMPONENTES
 
 A biblioteca react-native-fs figura como uma op&ccedil;ão para a cria&ccedil;ão de ficheiros, entretanto se mostrou problemática no IDE Snack.
@@ -109,6 +141,14 @@ Caso a plataforma seja Android ou iOS, o armazenamento local pode utilizar os co
 
 #### 3.1.2) REMOTAMENTE
 
+Dada a urgência de uso, a implementação padrão irá provisoriamente utilizar planilhas *online* como bancos de dados.
+
+<!--
+----------------------------------------------------------------------
+--------
+--------
+----------------------------------------------------------------------
+-->
 ## 4) ESTRUTURA DO PROJETO RH EM AÇÃO
 
 Diretórios e ficheiros com códigos-fontes.
@@ -133,8 +173,13 @@ Abriga dados, e.g., conta, vagas, registros, e etc.
 
 Persiste registros.
 
+<!--
+----------------------------------------------------------------------
+--------
+--------
+----------------------------------------------------------------------
+-->
 ## REFER&Ecirc;NCIAS 
 
 [1] BARBADO JUNIOR, Marcio. projeto-rh-em-acao. 2024. 650 Industries. Dispon&iacute;vel em: <https://snack.expo.dev/@marcio.barbado/projeto-rh-em-acao>, acessado em 30 de Abril de 2024. 
-
 
