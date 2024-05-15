@@ -1,0 +1,151 @@
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+////////  JOB LIST VIEW LIBRARY
+////////
+////////  File name:         JobListView.js.
+////////  Author:            Marcio Barbado, Jr.
+////////  Contact:           <marciojunior@hotmail.com>.
+////////  Place:             S&atilde;o Paulo, Brasil.
+////////  Copyright (c):     2024.
+////////  License:           General Public License, version 2.
+////////
+////////  App's name:        projeto-rh-em-acao.
+////////  App's description: a job-offer mobile app.
+////////
+////////  This program is free software; you can redistribute it
+////////  and/or modify it under the terms of the GNU General Public
+////////  License as published by the Free Software Foundation;
+////////  either version 2 of the License, or (at your option) any
+////////  later version.
+////////  
+////////  This program is distributed in the hope that it will be
+////////  useful, but WITHOUT ANY WARRANTY; without even the implied
+////////  warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+////////  PURPOSE. See the GNU General Public License for more
+////////  details.
+////////  
+////////  You should have received a copy of the GNU General Public
+////////  License along with this program; if not, write to the Free
+////////  Software Foundation, Inc., 59 Temple Place, Suite 330,
+////////  Boston, MA 02111-1307 USA
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+////////  (CC) BIBLIOTECAS
+////////
+////////  Quanto à importação de componentes das bibliotecas ou
+////////  módulos npm, típicos do desenvolvimento em React Native,
+////////  suponha que você precise de um componente chamado
+////////  BibliotecaSuper, e em algum tutorial por aí, alguém diga
+////////  que a obtenção do referido componente exige que você
+////////  execute um comando npm parecido com:
+////////
+////////  npm install @react-modulozinho/maroto
+////////
+////////  No Snack, tudo o que você realmente precisa fazer é algo
+////////  como:
+////////
+////////  import {BibliotecaSuper} from "@react-modulozinho/maroto";
+////////
+////////  A sintaxe com import passou a ser possível a partir da
+////////  versão 6 da ECMAScript.
+////////
+////////  As versões das bibliotecas são definidas no ficheiro
+////////  package.json.
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+import { Text, TouchableOpacity, View } from 'react-native';
+
+import { Card } from 'react-native-paper';
+
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+////////  (CC) BIBLIOTECA(S) LOCAL(IS)
+////////
+////////  Importar bibliotecas locais desde que elas usem
+////////  export default.
+////////
+////////  Qualquer biblioteca/componente correspondente a uma tela
+////////  deve importar os estilos presentes no ficheiro chamado
+////////  Styles.js, que por sua vez também é uma biblioteca.
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+import libraryPersist from './LibraryPersist.js';
+import styles from './Styles.js';
+
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+////////  (CO) DECLARATION(S) AND INITIALIZATION(S)
+////////
+////////  Declarações e inicializações de constantes e variáveis.
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////
+////////  FUNCTION JOBS()
+////////
+//////////////////////////////////////////////////////////////////////
+export default function JobListView({ navigation }) {
+  return (
+    <View style={styles.containerViewOutter}>
+
+      <Text style={styles.paragraph01}>
+        VAGAS
+      </Text>
+
+      <Card style={styles.crdJobsView}>
+        <Card.Content>
+          <View style={styles.containerRow}>
+            <Text style={styles.paragraphJobsView}>
+              SUPER PROGRAMADOR SENIOR{"\n"}
+              Stark Industries, R$ 5,00 por dia.
+            </Text>
+
+            <TouchableOpacity
+              onPress={() => navigation.navigate("RegisterView")}
+              style={styles.btnTouchable00}>
+              <Text style = {styles.btnLabel}>
+                Quero!
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </Card.Content>
+      </Card>
+
+      <Card style={styles.crdJobsView}>
+        <Card.Content>
+          <View style={styles.containerRow}>
+            <Text style={styles.paragraphJobsView}>
+              ESTAGI&Aacute;RIO DE HELP DESK{"\n"}
+              Planeta Di&aacute;rio, R$ 1,50 por m&ecirc;s mais o caf&eacute;.
+            </Text>
+
+            <TouchableOpacity
+              onPress={() => navigation.navigate("RegisterView")}
+              style={styles.btnTouchable00}>
+              <Text style={styles.btnLabel}>
+                Quero!
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </Card.Content>
+      </Card>
+    </View>
+  );
+}
